@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 
 st.title("Aneurysm Detection")
-st.write("Please upload axial view of CT image with upto 4 optional adjacents slices") 
+st.write("Please upload axial view of CT image with upto 4 optional adjacent slices") 
 
 #Upload file
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "dcm"])
